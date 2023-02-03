@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Management System</title>
+    <!-- css linked -->
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <!-- Font Awesome -->
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -134,8 +136,7 @@
 </nav>
 <!-- Navbar -->
 
-
-<div class="d-flex" style="height:100vh; background:linear-gradient( -45deg,
+<div class="d-flex" style="height:100vh; box-shadow:0 1px 10px rgba(0,0,0,0.5); background:linear-gradient( -45deg,
   lightblue 50%, lightyellow 50%
 );">
 <div class="container-fluid mt-5">
@@ -193,7 +194,76 @@
 </div>
 </div>
 
-    <!-- MDB -->
+<section class="py-5">
+  <div>
+    <h2 class="text-center font-weight-bold">Courses</h2>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, corrupti!</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <?php 
+      for($i = 0; $i < 8; $i++){  ?>
+      <div class="col-lg-3 mb-4">
+        <div class="card">
+          <div>
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif" alt="">
+          </div>
+          <div class="card-body">
+           <h4 class="card-text">Web Development & Design</h4>
+           <br>
+           <p>Duration : 6 Months</p>
+           <br>
+           <p>Price : 4,000 Rs</p>
+           <button class="btn btn-block btn-primary ">Enroll Now</button>
+          </div>
+        </div>    
+       
+      </div>   
+      <?php } ?>     
+      </div>    
+      
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+<div>
+    <h2 class="text-center font-weight-bold">Our Teachers</h2>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, corrupti!</p>
+  </div>
+  <div class="container">
+    <div class="row " style="margin-top:50px;">
+      <?php for($i = 0; $i < 8; $i++) { ?>
+      <div class="col-lg-3 my-4" >
+        <div class="card">
+          <div class="col-7 position-absolute " style="top:-30px; left: 10%; ">
+          <img class="rounded" style="width:70%; box-shadow:4px 4px 5px rgba(0,0,0,0.5);" src="./assets/Images/teacher-img-1.jpg" alt="">
+
+        </div>
+          <div class="card-body mt-4">
+          <h4 class="card-title">Name</h4>
+          <p>
+          <b>Ratings : </b> 
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star-half text-warning"></i>
+          </p>
+          <p class="card-text">
+            <b>Cources : </b>5
+            <br>
+          </p>
+          </div>
+        </div>
+      </div>
+      <?php } ?>
+    </div>
+  </div>
+</section>
+
+  <!-- MDB -->
 <script
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
