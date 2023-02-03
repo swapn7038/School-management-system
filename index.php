@@ -24,7 +24,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary text-light">
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -47,18 +47,18 @@
        
       </a>
       <!-- Left links -->
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item">
-          <a class="nav-link" href="#"><b>SMS</b></a>
+          <a class="nav-link text-light" href="#"><b>SMS</b></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Dashboard</a>
+          <a class="nav-link text-light" href="#">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Team</a>
+          <a class="nav-link text-light" href="#">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link text-light" href="#">Projects</a>
         </li>
       </ul>
       <!-- Left links -->
@@ -82,21 +82,21 @@
           data-mdb-toggle="dropdown"
           aria-expanded="false"
         >
-          <i class="fas fa-bell"></i>
+          <i class="fas fa-bell bg-primary"></i>
           <span class="badge rounded-pill badge-notification bg-danger">1</span>
         </a>
         <ul
-          class="dropdown-menu dropdown-menu-end"
+          class="dropdown-menu dropdown-menu-end  bg-primary"
           aria-labelledby="navbarDropdownMenuLink"
         >
           <li>
-            <a class="dropdown-item" href="#">Some news</a>
+            <a class="dropdown-item text-light" href="#">Some news</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">Another news</a>
+            <a class="dropdown-item text-light" href="#">Another news</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item text-light" href="#">Something else here</a>
           </li>
         </ul>
       </div>
@@ -117,13 +117,13 @@
           aria-labelledby="navbarDropdownMenuAvatar"
         >
           <li>
-            <a class="dropdown-item" href="#">My profile</a>
+            <a class="dropdown-item bg-primary text-light" href="#">My profile</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">Settings</a>
+            <a class="dropdown-item text-light" href="#">Settings</a>
           </li>
-          <li>
-            <a class="dropdown-item" href="#">Logout</a>
+          <li> 
+            <a class="dropdown-item text-light" href="#">Logout</a>
           </li>
         </ul>
       </div>
@@ -134,14 +134,63 @@
 </nav>
 <!-- Navbar -->
 
-<div class="container-fluid">
+
+<div class="d-flex" style="height:100vh; background:linear-gradient( -45deg,
+  lightblue 50%, lightyellow 50%
+);">
+<div class="container-fluid mt-5">
     <div class="row">
         <div class="col-lg-6">
-            <h1 class="display-4">School Management System</h1>
+            <h1 class="display-4" style="font-weight:600;color:black;">School Management System</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem qui magni libero saepe architecto, fugiat nulla optio nesciunt dolorum dolore quia, sapiente natus vitae deleniti aut commodi voluptatem molestias recusandae officiis cum consequatur delectus facilis. Fugit numquam odio repudiandae facere?</p>
-            <a href="#" class="btn btn-lg btn-navy"></a>
+            <a href="#" class="btn btn-lg btn-primary">Call To Action</a>
         </div>
+        <div class="col-lg-6  card-body mt-4">
+       <div class="w-50 mx-auto mt-5 shadow-sm">
+<form class="p-3 mt-2" style="width:35vw;box-shadow:3px 3px 9px rgba(0,0,0,0.5);">
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <h2 class="text-center">Admission Form</h2>
+  <div class="row mb-2">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form3Example1" class="form-control" />
+        <label class="form-label" for="form3Example1">First name</label>
+      </div>
     </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form3Example2" class="form-control" />
+        <label class="form-label" for="form3Example2">Last name</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="number" id="form3Example3" class="form-control" />
+    <label class="form-label" for="form3Example3">Phone number</label>
+  </div>
+
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="email" id="form3Example4" class="form-control" />
+    <label class="form-label" for="form3Example4">Email address</label>
+  </div>
+
+  <!-- Password input -->
+  <div class="form-outline mb-4">
+    <input type="password" id="form3Example5" class="form-control" />
+    <label class="form-label" for="form3Example4">Password</label>
+  </div>
+
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Submit Form</button>
+</form>
+       </div>
+      </div>
+    </div>
+</div>
 </div>
 
     <!-- MDB -->
