@@ -134,6 +134,16 @@
 </nav>
 <!-- Navbar -->
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <h1 class="display-4">School Management System</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem qui magni libero saepe architecto, fugiat nulla optio nesciunt dolorum dolore quia, sapiente natus vitae deleniti aut commodi voluptatem molestias recusandae officiis cum consequatur delectus facilis. Fugit numquam odio repudiandae facere?</p>
+            <a href="#" class="btn btn-lg btn-navy"></a>
+        </div>
+    </div>
+</div>
+
     <!-- MDB -->
 <script
   type="text/javascript"
