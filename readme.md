@@ -54,7 +54,7 @@ We dont even have to make it responsive.
 
 ### 2 Video Completed
 
-### 3 Video 23:30 Min Completed
+### 3 Video Completed
 
 ---
 

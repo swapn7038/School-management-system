@@ -262,23 +262,23 @@
             <div class="d-flex justify-content-between">
               <div class="logo-first">
                 <i class="fa-solid fa-trophy fa-3x"></i>
-                <p>lorem</p>
+                <p>Gold Medalist</p>
               </div>
               <div class="logo-second">
                 <i class="fa-regular fa-star fa-3x"></i>
-                <p>lorem</p>
+                <p>5 Star Winner</p>
               </div>
               <div class="logo-third">
                 <i class="fa-solid fa-graduation-cap fa-3x"></i>
-                <p>lorem</p>
+                <p>Graduation</p>
               </div>
               <div class="logo-fourth">
                 <i class="fa-solid fa-building-columns fa-3x"></i>
-                <p>lorem</p>
+                <p>Best Infracture</p>
               </div>
               <div class="logo-fifth">
                 <i class="fa-solid fa-school fa-3x"></i>
-                <p>lorem</p>
+                <p>Best School In area</p>
               </div>
             </div>
           </div>
@@ -288,6 +288,107 @@
     </div>
   </section>
 
+  <!-- ============== Testimonials ================ -->
+
+  <section class="py-5">
+    <div class="text-center mb-5">
+      <h1 class="text-center">What People Think</h1>
+      <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, earum.</p>
+    </div>
+    <div class="container">
+      <div>
+        <div class="row">
+          <div class="border rounded col-6" style="position:relative;">
+            <div class="p-3 text-center" style="box-shadow:4px 4px 10px rgba(0,0,0,0.5);">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, debitis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatum.
+              <div>
+                <h4>Name : Swapnil Shelke</h4>
+                <h5>Designation : Teacher</h5>
+              </div>
+            </div>
+
+            <img src="./assets/Images/person-1.jpg" style="position:absolute; top:50%;left:10%;  border-radius:50%; box-shadow:2px 2px 10px rgba(0,0,0,0.7);" height="40%" alt="">
+
+          </div>
+          <div class="border rounded col-6" style="position:relative;">
+            <div class="p-3 text-center" style="box-shadow:4px 4px 10px rgba(0,0,0,0.5);">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, debitis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatum.
+              <div>
+                <h4>Name : Swapnil Shelke</h4>
+                <h5>Designation : Teacher</h5>
+              </div>
+            </div>
+
+            <img src="./assets/Images/person-1.jpg" style="position:absolute; top:50%; left:10%; border-radius:50%; box-shadow:2px 2px 10px rgba(0,0,0,0.7);" height="40%" alt="">
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ====================== footer ======================  -->
+  <footer style="background: url('./assets/Images/about-us-img-1.jpg');  background-size:cover; background-repeat:no-repeat; ">
+    <div class="pt-5" style="background: linear-gradient(0,0,0,0.9);width:100%;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>Useful Links</h4>
+
+            <ul class="fa-ul">
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right"></i>List icons</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>List icons</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>List icons</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>List icons</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>List icons</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>List icons</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4>Social Links</h4>
+
+            <ul class="fa-ul">
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right"></i>Facebook</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>Instagram</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>Snapchat</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>Linkedin</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>Tik-tok</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>Porn-hub</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4>Creators of project</h4>
+
+            <ul class="fa-ul">
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right"></i>Kiran Kalunke</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>Pamya gaikwad</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>Rohit Sable</a></li>
+              <li><a class="text-light" href="#"><i class="fa-li fa fa-angle-right  "></i>Swapnil Shelke</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============== subscribe now ============= -->
+  <section style="width:100%; height:10rem; margin-bottom:1rem; background: linear-gradient(lightblue, lightyellow); display:flex; align-items:center; flex-direction:column; justify-content:space-around;">
+    <div class="mt-5">
+      <h2>Subscribe to newsletter</h2>
+      <input style="width:100%; background-color:yellow;" placeholder="Enter your email...." type="text">
+      <div class="pt-3 mb-3">
+        <button style="background:rgba(0,0,0,0.5); color:white; padding:.4rem 2rem; ">Submit</button>
+      </div>
+    </div>
+    <div style="background-color:black;color:wheat; width:100%; text-align:center; padding: 1rem;">
+      Copyright 2023. All rights reserved.
+    </div>
+  </section>
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 
