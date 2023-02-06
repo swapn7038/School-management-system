@@ -43,12 +43,16 @@
 Material Design Bootstrap.
 Javascript libarries.
 
+Admin panel banane se pehle, hame login panel banana hota he, uske bad ham admin panel par jeyenge.
+
 ---
 
 Using Bootstrap is smart way to build websites.
 We dont even have to make it responsive.
 
 ---
+
+Progress -->
 
 ### 1 Video Completed
 
