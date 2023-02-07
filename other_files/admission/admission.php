@@ -1,7 +1,3 @@
-<?php session_start();
-// echo $_SESSION['login'];
-// isse upar 1 kikh ke aayega, matlab session start ho gaya, and code bhi sahi se run hua.
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Management System</title>
+    <title>Admission Form</title>
     <!-- css linked -->
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <!-- Font Awesome -->
@@ -21,3 +17,9 @@
 </head>
 
 <body>
+
+    <h1 class="text-center">Admission Form</h1>
+
+</body>
+
+</html>

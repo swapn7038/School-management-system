@@ -64,6 +64,30 @@ Progress -->
 
 ---
 
+---
+
+Teachers name
+sachin sir
+kiran
+parameshwar
+prajawal
+samudre
+aahere
+archana
+pranali
+shelke
+aashay
+rushi
+
+Admission form structure
+first name
+last name
+phone number
+email
+password
+
+Go to ditms.org, copy structure from there.
+
 MDN links used
 
 <!-- https://mdbootstrap.com/docs/standard/getting-started/installation/ -->
