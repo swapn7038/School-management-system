@@ -17,160 +17,152 @@
 
     <style>
         body {
-            height: 200vh;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            background: linear-gradient(#913175, #CD5888);
+            color: #20262E;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
         }
 
-        .gradient-custom {
-            background: #f093fb;
-        }
-
-        .card-registration .select-input.form-control[readonly]:not([disabled]) {
-            font-size: 1rem;
-            line-height: 2.15;
-            padding-left: .75em;
-            padding-right: .75em;
-        }
-
-        .card-registration .select-arrow {
-            top: 13px;
-        }
-
-        input {
+        form {
             border: 2px solid black;
+            border-radius: .5rem;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: .5rem;
+            background: linear-gradient(#E9E8E8, #F1DBBF);
+        }
+
+        form input:not(.btn) {
+            width: 100%;
+            margin: .2rem;
+        }
+
+        form div {
+            margin: .2rem;
         }
     </style>
+
 </head>
 
 <body>
 
+    <form action="/index.php" class="form">
+        <div>
+            <h1 class="text-center">Admission from</h1>
+            <div>
+                <label for="surname">Surname : </label>
+                <input required autofocus type="text">
+            </div>
+            <div>
+                <label for="name">Name : </label>
+                <input required type="text">
+            </div>
+            <div>
+                <label for="f-name">Fathers Name : </label>
+                <input required type="text">
+            </div>
+            <div>
+                <label for="m-name">Mothers Name : </label>
+                <input required type="text">
+            </div>
+            <div>
+                <label for="aadhar-no">Aadhar card number : </label>
+                <input required type="number">
+            </div>
+            <div>
+                <label for="email">Email : </label>
+                <input required type="email">
+                <label for="password">Password : </label>
+                <input required type="password">
+            </div>
+            <div>
+                <label for="dob">DOB</label>
+                <input required type="date">
+            </div>
+            <div>
+                <label for="placeofbirth">Place of Birth</label>
+                <input required type="text">
+            </div>
 
-    <section class="vh-300 gradient-custom">
-        <div class="container py-5 h-100">
-            <div class="row justify-content-center align-items-center h-100">
-                <div class="col-12 col-lg-9 col-xl-7">
-                    <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
-                        <div class="card-body p-4 p-md-5">
-                            <!-- <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3> -->
-                            <h1 class="text-center">Admission Form</h1>
+            <div>
+                <label for="city">City</label>
+                <input required type="text">
+            </div>
 
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-outline">
-                                            <input type="text" id="firstName" class="form-control form-control-lg" />
-                                            <label class="form-label" for="firstName">First Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-outline">
-                                            <input type="text" id="lastName" class="form-control form-control-lg" />
-                                            <label class="form-label" for="lastName">Last Name</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-4 d-flex align-items-center">
-                                        <div class="form-outline datepicker w-100">
-                                            <input type="text" class="form-control form-control-lg" id="birthdayDate" />
-                                            <label for="birthdayDate" class="form-label">Birthday</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <h6 class="mb-2 pb-1">Gender: </h6>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender" value="option1" checked />
-                                            <label class="form-check-label" for="femaleGender">Female</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
-                                            <label class="form-check-label" for="maleGender">Male</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender" value="option3" />
-                                            <label class="form-check-label" for="otherGender">Other</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-4 pb-2">
-                                        <div class="form-outline">
-                                            <input type="email" id="emailAddress" class="form-control form-control-lg" />
-                                            <label class="form-label" for="emailAddress">Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4 pb-2">
-                                        <div class="form-outline">
-                                            <input type="password" id="password" class="form-control form-control-lg" />
-                                            <label class="form-label" for="emailAddress">Password</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4 pb-2">
-                                        <div class="form-outline">
-                                            <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
-                                            <label class="form-label" for="phoneNumber">Phone Number</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <select class="select form-control-lg">
-                                            <option value="1" disabled>Choose class</option>
-                                            <option value="2">Nursery</option>
-                                            <option value="2">K.G.</option>
-                                            <option value="2">Class 1</option>
-                                            <option value="3">Class 2</option>
-                                            <option value="4">Class 3</option>
-                                            <option value="4">Class 4</option>
-                                            <option value="4">Class 5</option>
-                                            <option value="4">Class 6</option>
-                                            <option value="4">Class 7</option>
-                                            <option value="4">Class 8</option>
-                                            <option value="4">Class 9</option>
-                                            <option value="4">Class 10</option>
-                                        </select>
-                                        <label class="form-label select-label">Choose option</label>
-                                    </div>
-                                </div>
+            <div>
+                <label for="district">District</label>
+                <input required type="text">
+            </div>
+
+            <div>
+                <label for="problem">Physical problems : </label>
+                <input required type="text">
+            </div>
+            <div>
+                <label for="caste">Caste </label>
+                <input required type="text">
+
+                <label for="">Mother tongue</label>
+                <input required type="text">
+            </div>
+            <div>
+                <label for="">Category</label>
+                <input required type="text">
+
+                <label for="">Religion</label>
+                <input required type="text">
+            </div>
+
+            <div>
+                <label for="">Name of the school laste attended</label>
+                <input required type="text">
+            </div>
+            <div>
+                <label for="">Standard to which Admission sought</label>
+                <input required type="text">
+            </div>
+            <div>
+                <label for="">Residential Address</label>
+                <input required type="text">
+            </div>
+
+            <div>
+                <label for="">City : </label>
+                <input required type="text">
+            </div>
+
+            <div>
+
+                <label for="">State : </label>
+                <input required type="text">
+            </div>
 
 
-                                <h1 class="text-center my-5">Parent's Info</h1>
-
-                                <div class="row">
-                                    <div class="col-md-6 mb-4 pb-2">
-                                        <div class="form-outline">
-                                            <input type="text" id="p-name" class="form-control form-control-lg" />
-                                            <label class="form-label" for="emailAddress">Last Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4 pb-2">
-                                        <div class="form-outline">
-                                            <input type="text" id="p-name" class="form-control form-control-lg" />
-                                            <label class="form-label" for="emailAddress">First Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4 pb-2">
-                                        <div class="form-outline">
-                                            <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
-                                            <label class="form-label" for="phoneNumber">Phone Number</label>
-                                        </div>
-                                        <div class="form-outline">
-                                            <input type="email" id="p-email" class="form-control form-control-lg" />
-                                            <label class="form-label" for="phoneNumber">Email</label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="mt-4 pt-2">
-                                    <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
+            <div>
+                <label for="">Medical Information (is compulsary) </label>
+                <div>
+                    A) Blood Group : <input required type="text">
+                    B) Identification Mark : <input required type="text">
                 </div>
             </div>
+
+            <div>
+                <label for="files">Choose photo</label>
+                <input required type="file">
+            </div>
+
+            <input class="btn" type="submit">
+
+            <input class="btn" type="reset">
         </div>
-    </section>
+    </form>
 
 </body>
 
