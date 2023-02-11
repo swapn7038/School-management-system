@@ -3,8 +3,8 @@
 session_start();
 
 if(!isset($_SESSION['login'])) {
-  echo "login";
-  exit;
+  // echo "login";
+  // exit;
 } else{
   header('Location: ../login.php');
 
