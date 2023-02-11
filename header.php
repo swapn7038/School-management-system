@@ -1,6 +1,6 @@
 <?php session_start();
 // echo $_SESSION['login'];
-// isse upar 1 kikh ke aayega, matlab session start ho gaya, and code bhi sahi se run hua.
+// isse upar 1 likh ke aayega, matlab session start ho gaya, and code bhi sahi se run hua.
 ?>
 <!DOCTYPE html>
 <html lang="en">

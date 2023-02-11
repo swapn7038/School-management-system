@@ -50,6 +50,8 @@ Admin panel banane se pehle, hame login panel banana hota he, uske bad ham admin
 Using Bootstrap is smart way to build websites.
 We dont even have to make it responsive.
 
+When last time I was working on login form for teacher it was not working, now it worked.
+
 ---
 
 Progress -->
@@ -60,7 +62,9 @@ Progress -->
 
 ### 3 Video Completed
 
-### 4 Video 35:00 min completed
+### 4 Video Completed
+
+// logout is not working
 
 ---
 
@@ -98,3 +102,7 @@ MDN links used
 <!-- <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
 <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script> -->
+
+Admin panel doenloaded from
+
+--> https://github.com/ColorlibHQ/AdminLTE/releases

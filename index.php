@@ -69,21 +69,21 @@
 
         <a class="link-secondary me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
           <?php if (isset($_SESSION['login'])) {  ?>
-            <i class="fas fa-user"></i>
-            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            <i class="fas fa-user"></i>Account
+            <span class="badge rounded-pill badge-notification bg-primary">1</span>
         </a>
-        <ul class="dropdown-menu dropdown-menu-end  bg-primary" aria-labelledby="navbarDropdownMenuLink">
+        <ul class="dropdown-menu dropdown-menu-end  bg-white" aria-labelledby="navbarDropdownMenuLink">
           <li>
-            <a class="dropdown-item text-light" href="#">Admission</a>
+            <a class="dropdown-item text-secondary" href="#">Admission</a>
           </li>
           <li>
-            <a class="dropdown-item text-light" href="#">Teachers Porta</a>
+            <a class="dropdown-item text-secondary" href="#">Teachers Portal</a>
           </li>
           <li>
-            <a class="dropdown-item text-light" href="#">Third option</a>
+            <a class="dropdown-item text-secondary" href="#">Third option</a>
           </li>
           <li>
-            <a class="dropdown-item text-light" href="#">Logout</a>
+            <a class="dropdown-item text-secondary" href="#">Logout</a>
           </li>
         </ul>
       <?php } else { ?>
@@ -768,12 +768,9 @@
 </footer>
 
 <!-- ============== Footer section ============= -->
-<section style="width:100%; height:4rem; background-color: black; color: white; display:flex; align-items:center; flex-direction:column; justify-content:space-around;">
+<section style="width:100%; height:4rem; background: linear-gradient(lightblue, lightgreen); color: black; display:flex; align-items:center; flex-direction:column; justify-content:space-around;">
   Copyright 2023. All rights reserved.
 </section>
 <!-- MDB -->
 
 <?php include('footer.php') ?>
-</body>
-
-</html>
