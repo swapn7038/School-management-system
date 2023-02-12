@@ -64,6 +64,8 @@ Progress -->
 
 ### 4 Video Completed
 
+### 5 Video Completed
+
 // logout is not working
 
 ---
@@ -103,6 +105,12 @@ MDN links used
 <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script> -->
 
-Admin panel doenloaded from
+Admin panel downloaded from
 
 --> https://github.com/ColorlibHQ/AdminLTE/releases
+
+Visit this link
+
+--> https://www.youtube.com/watch?v=vlV2zatrunU&list=PL3fAfYFbmMtj6u5b-8cmQ7L1XNZc3_Jb3
+
+--> https://www.youtube.com/watch?v=bqqELkHBMn4&list=PL3fAfYFbmMthcP_Z8aQEUrCaf7T5LLbUO
