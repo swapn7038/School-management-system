@@ -54,7 +54,7 @@ When last time I was working on login form for teacher it was not working, now i
 
 ---
 
-Progress -->
+## Progress -->
 
 ### 1 Video Completed
 
@@ -66,7 +66,12 @@ Progress -->
 
 ### 5 Video Completed
 
+### 6 Video
+
+-> Admin panel, add more things.
+
 // logout is not working
+// logout was not working because I didn't link the logout file to logout button.
 
 ---
 

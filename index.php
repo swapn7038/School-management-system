@@ -83,7 +83,7 @@
             <a class="dropdown-item text-secondary" href="#">Third option</a>
           </li>
           <li>
-            <a class="dropdown-item text-secondary" href="#">Logout</a>
+            <a class="dropdown-item text-secondary" href="logout.php">Logout</a>
           </li>
         </ul>
       <?php } else { ?>
