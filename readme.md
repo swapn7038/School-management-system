@@ -66,9 +66,9 @@ When last time I was working on login form for teacher it was not working, now i
 
 ### 5 Video Completed
 
-### 6 Video
+### 6 Video 52:00 min completed
 
--> Admin panel, add more things.
+-> Admin panel, add more things into admin panel.
 
 ### 10 Video
 
@@ -90,25 +90,14 @@ When last time I was working on login form for teacher it was not working, now i
 
 ---
 
-Teachers name
-sachin sir
-kiran
-parameshwar
-prajawal
-samudre
-aahere
-archana
-pranali
-shelke
-aashay
-rushi
+#### =======================
 
-Admission form structure
-first name
-last name
-phone number
-email
-password
+Things I can do, make database, add admission form data into database.
+Teacher in Admin pane.
+
+I can conquour all things.
+
+#### =======================
 
 Go to ditms.org, copy structure from there.
 

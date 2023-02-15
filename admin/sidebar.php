@@ -120,21 +120,27 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="./user-account.php?user=teacher" class="nav-link">
                   <!-- <i class="far fa-circle nav-icon"></i> -->
                   <p>Teachers</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="user-account.php?user=student" class="nav-link">
                   <!-- <i class="far fa-circle nav-icon"></i> -->
                   <p>Students</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="user-account.php?user=parents" class="nav-link">
                   <!-- <i class="far fa-circle nav-icon"></i> -->
                   <p>Parents</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="user-account.php?user=librarian" class="nav-link">
+                  <!-- <i class="far fa-circle nav-icon"></i> -->
+                  <p>Librarian</p>
                 </a>
               </li>
             </ul>
