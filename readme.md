@@ -70,6 +70,19 @@ When last time I was working on login form for teacher it was not working, now i
 
 -> Admin panel, add more things.
 
+### 10 Video
+
+-> Posting course
+
+1. enctype attribute in form tag.
+2. move_uploaded_file(); => php file upload
+
+### 11 Video
+
+-> Populating The Courses on Home page
+
+1. Solve error,
+
 // logout is not working
 // logout was not working because I didn't link the logout file to logout button.
 
