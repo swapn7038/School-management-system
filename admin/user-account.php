@@ -27,16 +27,32 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <div class="row">
-          <?php
-          $user_query = "SELECT * from accounts";
-          $user_result = mysqli_query($db_conn, $user_query);
-
-          $users = mysqli_fetch_array($user_result);
-          // $users = mysqli_fetch_assoc($user_result);
-
-           print_r($users);
-          ?>
+        <div class="table-responsive">
+          <table class="table table-bordered bg-white">
+            <thead>
+              <tr>
+              <th>S. No.</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+                <?php
+                  $count = 1;
+                 $user_query = 'SELECT * from accounts WHERE `type` = "'.$_REQUEST['user'].'"';
+                 $user_result = mysqli_query($db_conn, $user_query);
+                 while($users = mysqli_fetch_array($user_result))
+                 {
+                  ?>
+          <tr>
+          <td><?=$count++?></td>
+          <td><?=$users->name?></td>
+          <td><?=$users->name?></td>
+          </tr>
+           <?php  } ?>
+            </tbody>
+          </table>
         </div>
         <!-- /.row -->
         

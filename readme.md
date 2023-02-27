@@ -68,6 +68,8 @@ When last time I was working on login form for teacher it was not working, now i
 
 ### 6 Video 52:00 min completed
 
+### 7 Completed
+
 -> Admin panel, add more things into admin panel.
 
 ### 10 Video
@@ -86,7 +88,15 @@ When last time I was working on login form for teacher it was not working, now i
 // logout is not working
 // logout was not working because I didn't link the logout file to logout button.
 
+2. user-accounts.php not working.
+
 ---
+
+## Information related to login is in actions -> login.php
+
+after student Login -> fees, lec,
+Enr. no., dob, Class, Mo no.
+Bonafide certificate, pay fees, pending fees.
 
 ---
 
