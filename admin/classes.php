@@ -28,7 +28,8 @@
     <section class="content">
       <div class="container-fluid"><?php
 
-      if (isset($_REQUEST['action'])) { ?>
+      // if (isset($_REQUEST['action'])) { 
+        ?>
         <div class="card ">
         <div class="card-header m-3">
         <h3 class="card-title">Add New Class</h3>
@@ -40,14 +41,16 @@
                 <input type="text" name="title" placeholder="Title" required class="form-controller">
                 <label for="title">Section</label>
                 <?php 
-                $query = mysqli_query($db_conn, 'SELECT * from sections');
+                // $query = mysqli_query($db_conn, 'SELECT * from sections');
                 
-                while($sections = mysqli_fetch_object($query)){ ?>
+                // while($sections = mysqli_fetch_object($query)){ ?>
                   <label for="<?=$count?>">
                   <input type="checkbox" id="<?=$count?>" name="section[]" placeholder="Section">
-                  <?=$sections->title?></label>              
-                <?php 
-            } ?>
+                  <!-- <?=$sections->title?></label>               -->
+                  </label>              
+                <?php  
+              // }
+               ?>
              </div>
 
              <button class="btn btn-success">
@@ -56,8 +59,13 @@
            </form>
         </div>
     </div>
-     <?php } else { ?>
-        <?php } ?>
+     <?php 
+    // } else { 
+      ?>
+
+        <?php 
+      // } 
+      ?>
       </div>
     </section>
 <?php include('footer.php') ?>

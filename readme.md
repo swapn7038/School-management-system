@@ -70,6 +70,12 @@ When last time I was working on login form for teacher it was not working, now i
 
 ### 7 Completed
 
+### 8
+
+### 9
+
+-> Make current page active in navabr
+
 -> Admin panel, add more things into admin panel.
 
 ### 10 Video
