@@ -10,9 +10,9 @@
   <div class="container-fluid mt-5">
     <div class="row">
       <div class="col-lg-6">
-        <h1 class="display-4" style="font-weight:600;color:black;">School Management System</h1>
+        <h1 class="display-4" style="font-weight:600;color:black;">Saraswati Vidya-Mandir</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem qui magni libero saepe architecto, fugiat nulla optio nesciunt dolorum dolore quia, sapiente natus vitae deleniti aut commodi voluptatem molestias recusandae officiis cum consequatur delectus facilis. Fugit numquam odio repudiandae facere?</p>
-        <a href="#" class="btn btn-lg btn-primary">Call To Action</a>
+        <a href="#" class="btn btn-lg btn-primary">Know More </a>
       </div>
       <div class="col-lg-6  card-body mt-4">
         <div class="w-50 mx-auto mt-5 shadow-sm">
@@ -591,9 +591,9 @@
   </div>
   <div class="container">
     <div>
-      <div class="row">
+      <div class="row" style="">
         <div class="border rounded col-6 p-1" style="position:relative;">
-          <div class="p-3 text-center">
+          <div class="p-3 text-center" style="margin-left:1rem;border-radius:.5rem; box-shadow:4px 4px 8px rgba(0,0,0,0.5);">
             <p> One of the best Schools in India</p>
             <div>
               <p>Parent Name : <b>Aashitosh Pawar</b></p>
@@ -605,7 +605,7 @@
 
         </div>
         <div class="border rounded col-6" style="position:relative;">
-          <div class="p-3 text-center">
+          <div class="p-3 text-center" style="border-radius:.5rem; box-shadow:4px 4px 8px rgba(0,0,0,0.5);" >
             <p> School is great, but it's just little bit expensive.</p>
             <div>
               <p>Parent Name : <b>Aaditya Patil</b></p>
@@ -670,8 +670,8 @@
 </footer>
 
 <!-- ============== Footer section ============= -->
-<section style="width:100%; height:4rem; background: linear-gradient(lightblue, lightgreen); color: black; display:flex; align-items:center; flex-direction:column; justify-content:space-around;">
-  Copyright 2023. All rights reserved.
+<section style="width:100%; height:4rem; color: black;font-family:sans-serif; font-size:1rem; display:flex; align-items:center; justify-content:space-around;">
+  Copyright &#169; 2023. All rights reserved.
 </section>
 <!-- MDB -->
 

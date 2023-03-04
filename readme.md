@@ -148,3 +148,20 @@ Visit this link
 ---
 
 Also create login page, after the student login.
+
+Delete the teachers section, courses are good though.
+Edit footer -> add gradient.
+
+---
+
+Website architecture
+
+nav
+section-one -> header
+section-two -> about school (in short)
+section-three -> courses
+section-four -> teachers
+section-five -> achievements
+section-six -> testimonials
+section-sevem -> Important link section
+section-eight -> footer

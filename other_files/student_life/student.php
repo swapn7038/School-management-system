@@ -130,7 +130,7 @@
 </div>
 
 <div class="middle">
-  <h3><u>OUR APPROACH</u></h3>
+  <h3><u>Student Life</u></h3>
   <p>We create a 21st century learner through a 12-point vision and KASSM approach enabled through an innovative pedagogy, safe and secure learning environment through inspiring educators.</p>
   <p>21st century skills, inculcated from a very young age, aid students throughout their lives and careers and in their personal development and wellbeing.
 
