@@ -53,112 +53,112 @@
 
 <body>
 
-    <form action="/index.php" class="form">
+    <form action="./studentFiles/std-login-success.php" method="POST" class="form">
         <div>
             <h1 class="text-center">Admission from</h1>
             <div>
                 <label for="surname">Surname : </label>
-                <input required autofocus type="text">
+                <input required autofocus type="text" name="std_surname">
             </div>
             <div>
                 <label for="name">Name : </label>
-                <input required type="text">
+                <input required type="text" name="first_name">
             </div>
             <div>
                 <label for="f-name">Fathers Name : </label>
-                <input required type="text">
+                <input  type="text">
             </div>
             <div>
                 <label for="m-name">Mothers Name : </label>
-                <input required type="text">
+                <input  type="text">
             </div>
             <div>
                 <label for="aadhar-no">Aadhar card number : </label>
-                <input required type="number">
+                <input  type="number">
             </div>
             <div>
                 <label for="email">Email : </label>
-                <input required type="email">
+                <input  type="email">
                 <label for="password">Password : </label>
-                <input required type="password">
+                <input  type="password">
             </div>
             <div>
                 <label for="dob">DOB</label>
-                <input required type="date">
+                <input  type="date">
             </div>
             <div>
                 <label for="placeofbirth">Place of Birth</label>
-                <input required type="text">
+                <input  type="text">
             </div>
 
             <div>
                 <label for="city">City</label>
-                <input required type="text">
+                <input  type="text">
             </div>
 
             <div>
                 <label for="district">District</label>
-                <input required type="text">
+                <input  type="text">
             </div>
 
             <div>
                 <label for="problem">Physical problems : </label>
-                <input required type="text">
+                <input  type="text">
             </div>
             <div>
                 <label for="caste">Caste </label>
-                <input required type="text">
+                <input  type="text">
 
                 <label for="">Mother tongue</label>
-                <input required type="text">
+                <input  type="text">
             </div>
             <div>
                 <label for="">Category</label>
-                <input required type="text">
+                <input  type="text">
 
                 <label for="">Religion</label>
-                <input required type="text">
+                <input  type="text">
             </div>
 
             <div>
                 <label for="">Name of the school laste attended</label>
-                <input required type="text">
+                <input  type="text">
             </div>
             <div>
                 <label for="">Standard to which Admission sought</label>
-                <input required type="text">
+                <input  type="text">
             </div>
             <div>
                 <label for="">Residential Address</label>
-                <input required type="text">
+                <input  type="text">
             </div>
 
             <div>
                 <label for="">City : </label>
-                <input required type="text">
+                <input  type="text">
             </div>
 
             <div>
 
                 <label for="">State : </label>
-                <input required type="text">
+                <input  type="text">
             </div>
 
 
             <div>
                 <label for="">Medical Information (is compulsary) </label>
                 <div>
-                    A) Blood Group : <input required type="text">
-                    B) Identification Mark : <input required type="text">
+                    A) Blood Group : <input  type="text">
+                    B) Identification Mark : <input  type="text">
                 </div>
             </div>
 
             <div>
                 <label for="files">Choose photo</label>
-                <input required type="file">
+                <input  type="file">
             </div>
 
-            <input class="btn" type="submit">
+            <input class="btn" name="enroll" type="submit">
 
             <input class="btn" type="reset">
         </div>

@@ -137,3 +137,14 @@ Visit this link
 --> https://www.youtube.com/watch?v=vlV2zatrunU&list=PL3fAfYFbmMtj6u5b-8cmQ7L1XNZc3_Jb3
 
 --> https://www.youtube.com/watch?v=bqqELkHBMn4&list=PL3fAfYFbmMthcP_Z8aQEUrCaf7T5LLbUO
+
+### Doubts
+
+1. Why do we have package.json and package-lock.json ?
+2. What is yml file ?
+3. What is .eslintignore ?
+4. What is .eslintrc.json ?
+
+---
+
+Also create login page, after the student login.

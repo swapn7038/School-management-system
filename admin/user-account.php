@@ -39,18 +39,67 @@
             </thead>
             <tbody>
                 <?php
-                  $count = 1;
-                 $user_query = 'SELECT * from accounts WHERE `type` = "'.$_REQUEST['user'].'"';
-                 $user_result = mysqli_query($db_conn, $user_query);
-                 while($users = mysqli_fetch_array($user_result))
-                 {
-                  ?>
+               $count = 1;
+               $user_query = 'SELECT * from accounts WHERE `type` = "' . $_REQUEST['user'] . '"';
+               $user_result = mysqli_query($db_conn, $user_query);
+               while($users = mysqli_fetch_array($user_result))
+               {
+                ?>
+                 <?php  } ?>
           <tr>
-          <td><?=$count++?></td>
-          <td><?=$users->name?></td>
-          <td><?=$users->name?></td>
+          <td>1</td>
+          <td>Sachin Sir</td>
+          <td>sachin@gmail.com</td>
+          <td>Class Teachter 1st</td>
           </tr>
-           <?php  } ?>
+
+          <tr>
+          <td>2</td>
+          <td>Kiran Sir</td>
+          <td>Kiran@gmail.com</td>
+          <td>Class Teachter 2nd</td>
+          </tr>
+
+          <tr>
+          <td>3</td>
+          <td>Parmeshwar Sir</td>
+          <td>Pamu@gmail.com</td>
+          <td>Class Teachter 3rd</td>
+          </tr>
+
+          <tr>
+          <td>4</td>
+          <td>Parmeshwar Sir</td>
+          <td>Pamu@gmail.com</td>
+          <td>Class Teachter 3rd</td>
+          </tr>
+
+          <tr>
+          <td>5</td>
+          <td>Parmeshwar Sir</td>
+          <td>Pamu@gmail.com</td>
+          <td>Class Teachter 3rd</td>
+          </tr>
+
+          
+
+          <tr>
+          <td>6</td>
+          <td>Parmeshwar Sir</td>
+          <td>Pamu@gmail.com</td>
+          <td>Class Teachter 3rd</td>
+          </tr>
+
+          
+
+          <tr>
+          <td>7</td>
+          <td>Parmeshwar Sir</td>
+          <td>Pamu@gmail.com</td>
+          <td>Class Teachter 3rd</td>
+          </tr>
+
+          
             </tbody>
           </table>
         </div>
