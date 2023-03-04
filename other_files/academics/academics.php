@@ -26,20 +26,63 @@
     position: relative;
   }
 
+  .buttons {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:1rem 2rem;
+    font-family:sans-serif;
+    font-size:1rem;
+  }
+
+  .buttons .btn-one {
+    padding:1rem 2rem;
+    border:1px solid black;
+    border-radius:.5rem;
+    margin:.5rem;
+    transition:.5s;
+  }
+
+  .buttons .btn-one:hover {
+    background:darkblue;
+    color:white;
+  }
+
+  .buttons .btn-two {
+    padding:1rem 2rem;
+    border:1px solid black;
+    border-radius:.5rem;
+    transition:.5s;
+  }
+
+  .buttons .btn-two:hover {
+    background:darkblue;
+    color:white;
+  }
+
+  
+
   .middle {
     width:100%;
+    background:linear-gradient(aliceblue );
   }
+
+  .middle u:not(h3) {
+    color:orange;
+  }
+
 
   .middle img {
     width:60%;
     align-items:center;
-    padding:.3rem 2rem;
+    padding: 3rem 2rem;
+    box-shadow:10px 10px 20px rgba(0,0,0,0.5);
   }
 
   .middle p{
     font-family:sans-serif;
     font-size:1rem;
-    padding:.5rem 1rem;
+    padding: 1rem 2rem;
   }
 
   h3 {
@@ -53,30 +96,36 @@
     display: flex;
     justify-content:center;
   }
+
+  .end-para {
+    margin-bottom:4rem;
+  }
+
 </style>
+
 
 
 
 <header> 
 
 <div class="top">
-  
 <img src="https://www.ryangroup.org/public/images/front_end/header-images/academics_1603797482.jpg" alt="">
 <h1>Academics</h1>
 
 </div>
 
-<div class="middle">
-  <h3>OUR APPROACH</h3>
-  <p>We create a 21st century learner through a 12-point vision and KASSM approach enabled through an innovative pedagogy, safe and secure learning environment through inspiring educators.</p>
+<div class="buttons">
+  <div class="btn-one">Our Approach</div>
+  <div class="btn-two">Curriculam</div>
+</div>
 
-  <div class="mid-img-container">
-    <img src="http://ryangroup.org/public/images/front_end/template-images/01_1600931032.png" alt="">
-  </div>
+<div class="middle">
+  <h3><u>OUR APPROACH</u></h3>
+  <p>We create a 21st century learner through a 12-point vision and KASSM approach enabled through an innovative pedagogy, safe and secure learning environment through inspiring educators.</p>
   <p>21st century skills, inculcated from a very young age, aid students throughout their lives and careers and in their personal development and wellbeing.
 
-At the Ryan Group of Schools, the development of 21st century skills take place through well-balanced blended learning activities in scholastic and co-scholastic areas.</p>
-
+<p>At the Ryan Group of Schools, the development of 21st century skills take place through well-balanced blended learning activities in scholastic and co-scholastic areas.</p>
+</p>
 <div class="mid-img-container">
   <img src= "http://ryangroup.org/public/images/front_end/template-images/montessori_school_1600931032.jpg" alt="">
 </div>
@@ -128,10 +177,12 @@ The Atal Tinkering Lab of Ryan International School, Greater Noida, is featured 
 
 
 
-<p>Innovation Lab
+<p class="end-para">Innovation Lab
 
 Innovation Lab fosters creativity and intellectual development through quality visual arts & hands-on experience by making students create objects of their choice. Students are taught various skills to replicate the model, such as selecting the right raw materials, making shapes & structures etc. We provide them the opportunities to understand mechanics, chemicals and encourage out-of-the-box ideas.</p>
 
 </div>
 
+
 </header>
+
