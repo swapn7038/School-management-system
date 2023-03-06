@@ -58,7 +58,7 @@
             <h1 class="text-center">Admission from</h1>
             <div>
                 <label for="surname">Surname : </label>
-                <input required autofocus type="text" name="std_surname">
+                <input required autofocus type="text" name="last_name">
             </div>
             <div>
                 <label for="name">Name : </label>
