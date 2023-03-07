@@ -10,5 +10,6 @@ echo "Welcome" . "  " . $std_firstname . "  " . $std_lastname . " " . "Thanks fo
 
 
 
-<nav>
+
+</div> 
 

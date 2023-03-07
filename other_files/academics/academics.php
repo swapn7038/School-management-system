@@ -183,6 +183,5 @@ Innovation Lab fosters creativity and intellectual development through quality v
 
 </div>
 
-
 </header>
 

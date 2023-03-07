@@ -26,27 +26,8 @@
         <li class="nav-item">
           <a class="nav-link text-light" href="./other_files/student_life/student.php">Student Life</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="./other_files/parent_corner/parent.php">Parents Corner</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="./other_files/guidence_program/guidence.php">Guidence Program</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="./other_files/alumini_connect/alumini_connect.php">Alumini Connect</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="./other_files/media/media.php">Media</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="./other_files/career/career.php">Career</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="./other_files/blogs/blogs.php">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="./other_files/health_safety/health_safety.php">Health & Safety</a>
-        </li>
+       
+        
         <li class="nav-item">
           <a class="nav-link text-light" href="./other_files/contact/contact.php">Contact</a>
         </li>
@@ -73,13 +54,10 @@
         </a>
         <ul class="dropdown-menu dropdown-menu-end  bg-white" aria-labelledby="navbarDropdownMenuLink">
           <li>
-            <a class="dropdown-item text-secondary" href="#">Admission</a>
+            <a class="dropdown-item text-secondary" href="./other_files/admission/admission.php">Admission</a>
           </li>
           <li>
             <a class="dropdown-item text-secondary" href="#">Teachers Portal</a>
-          </li>
-          <li>
-            <a class="dropdown-item text-secondary" href="#">Third option</a>
           </li>
           <li>
             <a class="dropdown-item text-secondary" href="logout.php">Logout</a>
