@@ -1,3 +1,7 @@
-<?php  include('../reusableFiles/header.php') ?>
-<?php  include('../reusableFiles/navbar.php') ?>
+<?php 
+//  include('../reusableFiles/header.php') 
+?>
+<?php
+  include('../reusableFiles/navbar.php') ;
+?>
 
