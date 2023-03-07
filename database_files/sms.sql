@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 27, 2023 at 09:35 AM
+-- Generation Time: Mar 07, 2023 at 09:27 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -58,6 +58,14 @@ CREATE TABLE `classes` (
   `added_date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `classes`
+--
+
+INSERT INTO `classes` (`id`, `title`, `section`, `added_date`) VALUES
+(1, 'Class 1st', 1, '2023-03-31'),
+(2, 'Class 2nd', 1, '2023-03-31');
+
 -- --------------------------------------------------------
 
 --
@@ -99,7 +107,9 @@ CREATE TABLE `students` (
 
 INSERT INTO `students` (`s_id`, `s_name`, `s_address`, `s_email`, `s_password`, `s_no`, `s_dob`) VALUES
 (1, 'Swapnil Shelke', 'Shivarai', 'swapnilbabanshelke@gmail.com', 'Swapnil100101', 938475919, '2023-02-09'),
-(2, 'Parmeshwar Gaikwad', 'Waluj', 'pamya@gmil.com', 'Pamu1234', 848585858, '0000-00-00');
+(2, 'Parmeshwar Gaikwad', 'Waluj', 'pamya@gmil.com', 'Pamu1234', 848585858, '0000-00-00'),
+(0, 'Kiran Kalunke', 'Shivarai, waluj', 'kiran@gmail.com', 'kiran@1234', 3, '2015-03-31'),
+(0, 'Rohit Sable', 'Bajajnagar, Waluj', 'rihit@gmail.com', 'rohit@gmail.com', 4, '2015-03-31');
 
 -- --------------------------------------------------------
 
@@ -166,7 +176,7 @@ ALTER TABLE `accounts`
 -- AUTO_INCREMENT for table `classes`
 --
 ALTER TABLE `classes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `sections`
