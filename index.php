@@ -11,8 +11,8 @@
     <div class="row">
       <div class="col-lg-6">
         <h1 class="display-4" style="font-weight:600;color:black;">Saraswati Vidya-Mandir</h1>
-        <p>"Efficiently managing education for a brighter tomorrow."</p>
-        <p>"Empowering Education, Streamlining Success: Your Ultimate School Management System."</p>
+        <p><b>"Efficiently managing education for a brighter tomorrow."</b></p>
+        <p><b>"Empowering Education, Streamlining Success: Your Ultimate School Management System."</b></p>
         <a href="#about-us" class="btn btn-lg btn-primary">Know More </a>
       </div>
       <div class="col-lg-6  card-body mt-4">
@@ -70,12 +70,12 @@
       <div class="col-lg-6">
         <h1 class="text-center">About Us</h1>
 
-        <p> 140+ schools across over 40 cities enable easy Inter Ryan Transfers
+        <p> <b>140+ schools across over 40 cities enable easy Inter Ryan Transfers</b>
 
-- An integrated Ryan Parent App facilitates hassle-free parent-teacher communication, so parents are aware of their children’s progress at all times.
-
-- Extensive facilities for holistic learning and associations with Google and Microsoft to prepare Future Ready students</p>
-<p>Since the mandated closure of schools, more than 1.5 lakh hours have been invested by our teachers in teaching and preparing 1 million e-learning sessions which have been delivered to our students across India.</p>
+<b>- An integrated Ryan Parent App facilitates hassle-free parent-teacher communication, so parents are aware of their children’s progress at all times.
+</b>
+<b>- Extensive facilities for holistic learning and associations with Google and Microsoft to prepare Future Ready students</b></p>
+<p><b>Since the mandated closure of schools, more than 1.5 lakh hours have been invested by our teachers in teaching and preparing 1 million e-learning sessions which have been delivered to our students across India.</b></p>
         <a class="btn bg-primary" style="color:white;" href="#">Know More</a>
       </div>
       <div class="col-lg-6 ml-5">
@@ -97,7 +97,7 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-          <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+          <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-7.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Nursery, KG, Sen. KG </h5>

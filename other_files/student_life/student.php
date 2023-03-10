@@ -1,19 +1,3 @@
-
-
-<?php  
-// include('../reusableFiles/header.php') 
-?>
-<?php 
-//  include('../reusableFiles/navbar.php') 
- ?>
-
-
-<?php 
-//  include('../reusableFiles/header.php');
-//  include('../reusableFiles/navbar.php');
-
-?>
-
 <style>
   *{
     margin: 0;
