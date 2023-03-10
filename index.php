@@ -11,8 +11,9 @@
     <div class="row">
       <div class="col-lg-6">
         <h1 class="display-4" style="font-weight:600;color:black;">Saraswati Vidya-Mandir</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem qui magni libero saepe architecto, fugiat nulla optio nesciunt dolorum dolore quia, sapiente natus vitae deleniti aut commodi voluptatem molestias recusandae officiis cum consequatur delectus facilis. Fugit numquam odio repudiandae facere?</p>
-        <a href="#" class="btn btn-lg btn-primary">Know More </a>
+        <p>"Efficiently managing education for a brighter tomorrow."</p>
+        <p>"Empowering Education, Streamlining Success: Your Ultimate School Management System."</p>
+        <a href="#about-us" class="btn btn-lg btn-primary">Know More </a>
       </div>
       <div class="col-lg-6  card-body mt-4">
         <div class="w-50 mx-auto mt-5 shadow-sm">
@@ -68,8 +69,13 @@
     <div class="row">
       <div class="col-lg-6">
         <h1 class="text-center">About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, atque? Quibusdam repellendus assumenda nam illum beatae fugiat hic inventore ut molestiae vitae architecto, sit iure libero ab quia porro aspernatur adipisci, quis commodi placeat impedit? Eaque et aliquid omnis fugiat quia, commodi aperiam laborum iusto tempore, ea corrupti quibusdam vitae.</p>
 
+        <p> 140+ schools across over 40 cities enable easy Inter Ryan Transfers
+
+- An integrated Ryan Parent App facilitates hassle-free parent-teacher communication, so parents are aware of their children’s progress at all times.
+
+- Extensive facilities for holistic learning and associations with Google and Microsoft to prepare Future Ready students</p>
+<p>Since the mandated closure of schools, more than 1.5 lakh hours have been invested by our teachers in teaching and preparing 1 million e-learning sessions which have been delivered to our students across India.</p>
         <a class="btn bg-primary" style="color:white;" href="#">Know More</a>
       </div>
       <div class="col-lg-6 ml-5">
@@ -82,7 +88,7 @@
 <section class="py-5">
   <div>
     <h1 class="text-center font-weight-bold">Courses</h1>
-    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, corrupti!</p>
+    <p class="text-center">"Unlock Your Potential: Explore Our Range of Innovative School Courses."</p>
   </div>
   <div class="container">
     <div class="row">
@@ -91,14 +97,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+          <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Nursery, KG, Sen. KG </h5>
             <br>
             <p>Class Teacher : Sachin sir</p>
             <p>Fees : 25,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -107,7 +113,7 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-2.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 1st
@@ -115,7 +121,7 @@
             <br>
             <p>Class Teacher : Kiran Sir</p>
             <p>Fees : 30,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -124,14 +130,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-3.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 2nd</h5>
             <br>
             <p>Class Teacher : Parameshwar sir</p>
             <p>Fees : 35,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -140,14 +146,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-4.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 3rd</h5>
             <br>
             <p>Class Teacher : Prajawal sir</p>
             <p>Fees : 40,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -156,14 +162,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-5.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 4th</h5>
             <br>
             <p>Class Teacher : Samudre sir</p>
             <p>Fees : 45,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -173,14 +179,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-6.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 5th</h5>
             <br>
             <p>Class Teacher : Aahere sir</p>
             <p>Fees : 50,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -190,14 +196,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-7.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 6th</h5>
             <br>
             <p>Class Teacher : Archana Mam</p>
             <p>Fees : 55,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -207,14 +213,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-8.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 7th</h5>
             <br>
             <p>Class Teacher : Pranali Mam</p>
             <p>Fees : 60,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -224,14 +230,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-9.jpg">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 8th</h5>
             <br>
             <p>Class Teacher : Shelke Sir</p>
             <p>Fees : 65,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -241,14 +247,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-10.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 9th</h5>
             <br>
             <p>Class Teacher : Aashay Sir</p>
             <p>Fees : 70,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -258,14 +264,14 @@
       <div class="col-lg-3 mb-4">
         <div class="card">
           <div>
-            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-1.avif">
+            <img class="img-fluid rounded-pill" src="./assets/Images/school-course-img-11.avif">
           </div>
           <div class="card-body">
             <h5 class="card-text">Class 10th</h5>
             <br>
             <p>Class Teacher : Rushi Sir</p>
             <p>Fees : 75,000</p>
-            <button class="btn btn-block btn-primary ">Take Admission</button>
+            <button class="btn btn-block btn-secondary"><a href="other_files/admission/admission.php">Take Admission</a></button>
           </div>
         </div>
 
@@ -314,7 +320,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;" src="./assets/Images/person-2.jpg" alt="teacher-2">
 
           </div>
           <div class="card-body mt-4">
@@ -337,7 +343,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-3.jpg" alt="teacher-3">
 
           </div>
           <div class="card-body mt-4">
@@ -360,7 +366,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-4.jpg" alt="teacher-4">
 
           </div>
           <div class="card-body mt-4">
@@ -383,7 +389,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-5.jpg" alt="teacher-5">
 
           </div>
           <div class="card-body mt-4">
@@ -406,7 +412,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-6.jpg" alt="teacher-6">
 
           </div>
           <div class="card-body mt-4">
@@ -428,7 +434,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-7.jpg" alt="teacher-7">
 
           </div>
           <div class="card-body mt-4">
@@ -451,7 +457,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-8.jpg" alt="teacher-8">
 
           </div>
           <div class="card-body mt-4">
@@ -474,7 +480,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-9.jpg" alt="teacher-9">
 
           </div>
           <div class="card-body mt-4">
@@ -497,7 +503,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-10.jpg" alt="teacher-10">
 
           </div>
           <div class="card-body mt-4">
@@ -520,7 +526,7 @@
       <div class="col-lg-3 my-4">
         <div class="card">
           <div class="col-7 position-absolute " style="top:-30px; left: 60%; ">
-            <img class="rounded" style="width:50%;" src="./assets/Images/person-1.jpg" alt="">
+            <img class="rounded" style="width:50%;"  src="./assets/Images/person-11.jpg" alt="teacher-10">
 
           </div>
           <div class="card-body mt-4">
@@ -670,7 +676,7 @@
 </footer>
 
 <!-- ============== Footer section ============= -->
-<section style="width:100%; height:4rem; color: black;font-family:sans-serif; font-size:1rem; display:flex; align-items:center; justify-content:space-around;">
+<section style="width:100%; height:4rem; background-color:grey; color:white;font-family:sans-serif; font-size:1rem; display:flex; align-items:center; justify-content:space-around;">
   Copyright &#169; 2023. All rights reserved.
 </section>
 <!-- MDB -->

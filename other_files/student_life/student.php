@@ -120,7 +120,7 @@
 
 <div class="top">
 <img src="https://www.ryangroup.org/public/images/front_end/header-images/academics_1603797482.jpg" alt="">
-<h1>Academics</h1>
+<h1>Student Life</h1>
 
 </div>
 
